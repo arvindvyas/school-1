@@ -6,7 +6,7 @@ gem 'rails', '~> 4.2.4'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'pg'
 gem "devise"
 gem "cancancan"
 gem "haml-rails"
