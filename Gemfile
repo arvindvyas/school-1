@@ -28,6 +28,8 @@ gem "icalendar"
 gem "addressable"
 
 gem "twitter"
+gem 'cancancan'
+gem 'rolify'
 
 group :development do
   gem 'letter_opener'

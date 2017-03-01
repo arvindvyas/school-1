@@ -42,20 +42,46 @@
     = f.text_field :homepage
 
   %div
-    = f.label :github_username
+    = f.label :students_details
     %br
-    = f.text_field :github_username
+    = f.text_field :students_details
 
   %div
-    = f.label :codewars_username
+    = f.label :date_of_birth
     %br
-    = f.text_field :codewars_username
+    = f.text_field :date_of_birth
+  
+  %div
+    = f.label :gender
+    %br
+    = f.text_field :gender
+  
+  %div
+    = f.label :mobile_no
+    %br
+    = f.text_field :mobile_no
+  %div
+    = f.label :address
+    %br
+    = f.text_field :address
+  %div
+    = f.label :enrolment_of_class
+    %br
+    = f.text_field :enrolment_of_class
+  %div
+    = f.label :father_or_mother
+    %br
+    = f.text_field :father_or_mother
 
   %div
-    = f.label :bridge_troll_user_id, "BridgeTroll User ID"
+    = f.label :occupation
     %br
-    = f.text_field :bridge_troll_user_id
-
+    = f.text_field :occupation
+  %div
+    = f.label :qualification
+    %br
+    = f.text_field :qualification
+  
   %div= f.submit "Sign up"
 
 = render "devise/shared/links"
